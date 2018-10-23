@@ -8,11 +8,11 @@ class TwoAction implements Action
 {
     public function handle()
     {
-        echo "Two Action Executed!";
+        echo 'Two Action Executed!';
     }
 
     public function reverse()
     {
-        echo "Two Action Reversed!";
+        echo 'Two Action Reversed!';
     }
 }

@@ -8,11 +8,11 @@ class ThreeAction implements Action
 {
     public function handle()
     {
-        echo "Three Action Executed!";
+        echo 'Three Action Executed!';
     }
 
     public function reverse()
     {
-        echo "Three Action Reversed!";
+        echo 'Three Action Reversed!';
     }
 }
