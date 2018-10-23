@@ -1,6 +1,6 @@
 # Laravel Action Log
 
-`Keep in track to what your application do.`
+`Keep in track to what your application does.`
 
 This package give your application ability to log the action that have been made. It also support to reverse the action.
 This package inspired by the Laravel Migration. It's just the same thing that Laravel Migration does.
