@@ -109,7 +109,7 @@ class ActionLog
             DB::transaction(function () use ($action) {
                 $action->handle();
 
-                foreach ((array)Arr::get($this->listeners, get_class($action)) as $listener) {
+                foreach ((array) Arr::get($this->listeners, get_class($action)) as $listener) {
                     $listener->handle();
                 }
             });

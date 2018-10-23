@@ -19,7 +19,7 @@ class ActionLogTest extends TestCase
             ],
             TwoAction::class => [
                 ThreeAction::class,
-            ]
+            ],
         ]);
 
         $model = ActionLogFacade::run(new OneAction());
